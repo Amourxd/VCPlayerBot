@@ -7,7 +7,7 @@ else
   echo "Cloning $BRANCH branch...."
   git clone https://github.com/Amourxd/VCPlayerBot -b $BRANCH /main
 fi
-cd /VCPlayerBot
+cd /main
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 main.py
